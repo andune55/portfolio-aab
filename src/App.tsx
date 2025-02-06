@@ -21,7 +21,7 @@ function App() {
 
       {/* <header className="bg-blue-400 py-[50px]"> */}
       <header className="bg-linear-45 from-indigo-500 via-purple-500 to-pink-500 py-[50px]">
-        <h1 className="text-center text-4xl font-[Dancing_Script] text-[50px]/12 text-amber-50 lg">Portfolio Agustín Aguilera Beltrán</h1>
+        <h1 className="text-center text-4xl font-[Dancing_Script] text-amber-50 lg">Portfolio Agustín Aguilera Beltrán</h1>
 
       </header>
 
@@ -68,7 +68,7 @@ function App() {
                             <li className="list-disc">Construcción de plantillas .html para para envíos masivos a clientes madiante gestor de campañas Adobe Campaign.</li>
                         </ul>                 
 
-                        <img className="shadow-xl" src="./public/img/plantilla-email.webp" alt="imagen plantilla email" loading='lazy' />
+                        <img className="shadow-xl" src="./img/plantilla-email.webp" alt="imagen plantilla email" loading='lazy' />
                         {/* <img className="ml-6 rotate-x-14 rotate-z-359 transform-3d shadow-xl" src="./public/img/plantilla-email.webp" alt="" loading='lazy'/> */}
 
                         <ul className="mx-5 my-4">
@@ -79,7 +79,7 @@ function App() {
                             <article>
                                 <div className="overflow-y-auto scrollbar w-full max-h-100 text-center">
                                 <strong>Email01</strong>
-                                <img src="/img/email01.webp" alt="imagen email" loading='lazy'/>                                
+                                <img src="./img/email01.webp" alt="imagen email" loading='lazy'/>                                
                                 </div>
                             </article>
                             </div>
@@ -88,7 +88,7 @@ function App() {
                             <article>
                             <div className="overflow-y-auto scrollbar w-full max-h-100 text-center">
                                 <strong>Email02</strong>
-                                <img src="/img/email02.webp" alt="imagen email" loading='lazy'/>
+                                <img src="./img/email02.webp" alt="imagen email" loading='lazy'/>
                             </div>  
                             </article>
                             </div>
@@ -97,7 +97,7 @@ function App() {
                             <article>
                                 <div className="overflow-y-auto scrollbar w-full max-h-100 text-center">
                                 <strong>Email03</strong>
-                                <img src="/img/email03.webp" alt="imagen email" loading='lazy'/>            
+                                <img src="./img/email03.webp" alt="imagen email" loading='lazy'/>            
                                 </div>
                             </article>
                             </div>
@@ -106,7 +106,7 @@ function App() {
                             <article>
                                 <div className="overflow-y-auto scrollbar w-full max-h-100 text-center">
                                 <strong>Email04</strong>
-                                <img src="/img/email05.webp" alt="imagen email" loading='lazy'/>            
+                                <img src="./img/email05.webp" alt="imagen email" loading='lazy'/>            
                                 </div>
                             </article>
                             </div>
@@ -118,8 +118,8 @@ function App() {
 
                       {(item.id==="2")?                                             
                         <>
-                          <img src="/img/cotizadores-sitios-web-aseguradora.webp" alt="imagen cotizadores" loading='lazy'/>
-                          <img src="/img/colaboradores-externos.webp" alt="imagen colaboradores" loading='lazy'/>
+                          <img src="./img/cotizadores-sitios-web-aseguradora.webp" alt="imagen cotizadores" loading='lazy'/>
+                          <img src="./img/colaboradores-externos.webp" alt="imagen colaboradores" loading='lazy'/>
                         </>:
 
                       ''} 
@@ -127,7 +127,7 @@ function App() {
                       {(item.id==="3")?                                             
                         <>
                           <p className="mb-3 text-center">Creación y documentación de <strong>componentes personalizados para cotizadores y área de clientes</strong> de aseguradora nacional, trabajando con varios departamentos como Arquitectura negocio, Transformación digital, Desarrollo Internet, haciendo uso de metodologías agile.</p>
-                          <img src="/img/componentes.webp" alt="imagen componentes" loading='lazy'/>
+                          <img src="./img/componentes.webp" alt="imagen componentes" loading='lazy'/>
                         </>:
 
                       ''} 
@@ -136,10 +136,10 @@ function App() {
                         <>
 
                           <p className="mb-3 text-center"><strong>Participación en el desarrollo y maquetación de la App Live Chat para clientes:</strong> maquetación junto al equipo de desarrollo y distintos departamentos, de las jsp con COMPONENTES JSF, CSS y JS de las distintas aplicaciones de la Intranet y páginas de colaboradores externos de empresa de seguros y sus marcas; <strong>apertura de partes, gestión de siniestros, lesionados, contabilidad, comunicación, marketing, partners,...</strong>:</p>
-                          <img src="/img/web-intranet.webp" alt="imagen intranet" loading='lazy'/>
+                          <img src="./img/web-intranet.webp" alt="imagen intranet" loading='lazy'/>
 
                           <p className="font-bold mb-3 text-center">Participación en el desarrollo y maquetación de la App Live Chat para clientes.</p>
-                          <img src="/img/web-chat.webp" alt="imagen livechat" loading='lazy'/>
+                          <img src="./img/web-chat.webp" alt="imagen livechat" loading='lazy'/>
                         </>:
 
                       ''} 
@@ -152,7 +152,7 @@ function App() {
                           <li className="list-disc">Estudio e Integración con PHP de la pasarela de pagos con la web parroquial</li>
                           <li className="list-disc">Testeo y puesta en producción</li>
                         </ul>
-                        <img src="/img/integracion-tpv.webp" alt="" loading='lazy'/>
+                        <img src="./img/integracion-tpv.webp" alt="" loading='lazy'/>
                         </>:
 
                       ''} 
@@ -164,11 +164,11 @@ function App() {
                         <div className="flex mb-3.75">                       
                          <div>
                            <p className="font-bold mb-3">Elaboración íntegra de web para gabinete de psicología:</p>
-                           <img src="/img/web-edac.webp" alt="web gabinete psicología" loading='lazy'/>
+                           <img src="./img/web-edac.webp" alt="web gabinete psicología" loading='lazy'/>
                          </div>
                          <div>
                            <p className="mb-3 "><strong>Elaboración íntegra de web parroquial:</strong> Responsive HTML, mobile first, CSS, PHP, JS, SEO. Buscador propio usando fuse, galerías de imágenes con php, páginas internas, documentación y mantenimientos, calendario litúrgico perpetuo, lecturas diarias perpetuas,...</p>
-                           <img src="/img/web-parroquial.webp" alt="web gabinete psicología" loading='lazy'/>
+                           <img src="./img/web-parroquial.webp" alt="web gabinete psicología" loading='lazy'/>
                          </div>
                         </div>
 
@@ -178,7 +178,7 @@ function App() {
 
                       {(item.id==="7")?                                             
                         <>
-                         <img src="/img/elaboracion-manuales.webp" alt="imagen tutoriales" loading='lazy'/>
+                         <img src="./img/elaboracion-manuales.webp" alt="imagen tutoriales" loading='lazy'/>
                         </>:
 
                       ''} 
@@ -188,7 +188,7 @@ function App() {
                         <>  
 
                          <p className="font-bold mb-3">Creatividad para promoción de adestramiento canino en redes:</p>
-                         <img className="w-[500px]" src="/img/adiestramiento-canino-madrid.webp" alt="imagen adiestramiento canino" loading='lazy'/>
+                         <img className="w-[500px]" src="./img/adiestramiento-canino-madrid.webp" alt="imagen adiestramiento canino" loading='lazy'/>
 
                         <p className="font-bold mb-3">Interfaz panel temporal 'Back to the future' maquetado con HTML+CSS+JS:</p>
                         <iframe src="https://andune55.github.io/bttf/" className="w-full xl:h-250 md: h-200" loading='lazy'></iframe>

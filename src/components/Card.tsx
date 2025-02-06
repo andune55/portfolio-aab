@@ -12,7 +12,7 @@ export default function Card({item}: CardProps){
         <p className="p-2 text-amber-600"><strong>{item.titulo}</strong></p>
         <div className="card overflow-visible p-2 shadow-4-strong">
           <div className="card-body">
-            <img className="radius-shape-aab " src={`/img/${item.foto}`} alt="Imagen libélula dragón" />
+            <img className="radius-shape-aab " src={`./img/${item.foto}`} alt="Imagen libélula dragón" />
           </div>
         </div>         
         {(item.textoBoton)? 
