@@ -17,5 +17,5 @@ export default defineConfig({
     // tailwindcssanimate(),
     // 
   ],
-  base: '/portfolio-aab/'
+  base: '/portfolio-aab/dist/'
 })
