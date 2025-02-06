@@ -32,7 +32,7 @@ export const AccordionProvider = ({
     return (
         <>
             <AccordionContext.Provider value={value}>
-                { children }
+                {children}
             </AccordionContext.Provider>
         </>
     )

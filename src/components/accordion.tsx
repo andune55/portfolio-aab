@@ -63,11 +63,11 @@ export const AccordionTrigger= ({
         <>
             <div>
                 <button
-                    className="flex items-center justify-between cursor-pointer bg-red-100 hover:bg-red-200 text-red-900 py-2 px-2 border-b-2 border-b-red-100 hover:border-red-700 rounded w-full mb-0.5"
+                    className="flex items-center justify-end cursor-pointer bg-red-100 hover:bg-red-200 text-red-900 py-2 px-2 border-b-2 border-b-red-100 hover:border-red-700 rounded w-full mb-0.5"
                     onClick={() => context?.handleTrigger(item?.id)}
                     >
-                    { children }
-                    <svg className="w-7 h-7 text-red-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <p className="text-right max-md:text-right">{ children }</p>
+                    <svg className="shrink-0 w-7 h-7 text-red-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m8 10 4 4 4-4"/>
                     </svg>
 

@@ -14,3 +14,15 @@
     border-radius: 43% 68% 68% 54% / 83% 41% 73% 50%;
     max-width: calc(100% + 55px);
 }
+
+.bloque-desplegable img, iframe{
+    border-radius: 3px;
+    max-width: 99%;
+}
+@media screen and (max-width: 768px){  
+    .bloque-desplegable img, iframe{
+        margin: 0 auto;
+        border-radius: 5px;
+        width: 95%;
+    }
+}

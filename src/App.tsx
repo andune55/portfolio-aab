@@ -5,6 +5,8 @@ import Card from './components/Card'
 import InfoPersonal from './components/InfoPersonal'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger} from './components/accordion'
 
+/*import { Fotografias } from './components/Fotografias'*/
+
  
 
 function App() {
@@ -42,17 +44,17 @@ function App() {
         Algunos trabajos realizados         
       </h3>
 
-      <div className="container mx-auto mb-10 pt-4.5 pr-4 pl-0 pb-3 border-b-2 border-b-slate-300 border-r-1 border-r-red-200 rounded-b-xl" > 
+      <div className="container mx-auto mb-10 md:pt-4.5 md:pr-4 md:shrink-0 pl-0 pb-3 border-b-2 border-b-slate-300 border-r-1 border-r-red-200 rounded-b-xl" > 
         <Accordion>
             {
               trabajos.map( item => (
                 
                 <AccordionItem 
-                  key={item.id}
-                  id={item.id}
+                  key = {item.id}
+                  id = {item.id}
                   >
                   <AccordionTrigger>                      
-                        {item.title }                
+                        {item.title}                
                   </AccordionTrigger>
                   <AccordionContent>
                     <div id="bloque1" className="bloque-desplegable">
@@ -61,7 +63,6 @@ function App() {
                       {(item.id==="1")? 
 
                         <>
-
                         <ul className="mx-5 my-4">                            
                             <li className="list-disc">Creación íntegra de los distintos módulos a emplear y testeo en más de 100 clientes de correo para asegurar la correcta renderización tanto en light como en dark mode. Usando las recomendaciones actuales de accesibilidad y anti-spam, procurando estar al día en cuanto a novedades, técnicas y recomendaciones.</li>
                             <li className="list-disc">Construcción de plantillas velocity .vm para envíos masivos a clientes mediante centro de notificaciones propio.</li>
@@ -110,38 +111,32 @@ function App() {
                                 </div>
                             </article>
                             </div>
-                        </div>
-                        
+                        </div>                        
                         </>:
-
                       ''} 
 
                       {(item.id==="2")?                                             
                         <>
-                          <img src="./img/cotizadores-sitios-web-aseguradora.webp" alt="imagen cotizadores" loading='lazy'/>
-                          <img src="./img/colaboradores-externos.webp" alt="imagen colaboradores" loading='lazy'/>
+                          <img className="shadow-xl" src="./img/cotizadores-sitios-web-aseguradora.webp" alt="imagen cotizadores" loading='lazy'/>
+                          <img className="shadow-xl" src="./img/colaboradores-externos.webp" alt="imagen colaboradores" loading='lazy'/>
                         </>:
-
                       ''} 
 
                       {(item.id==="3")?                                             
                         <>
                           <p className="mb-3 text-center">Creación y documentación de <strong>componentes personalizados para cotizadores y área de clientes</strong> de aseguradora nacional, trabajando con varios departamentos como Arquitectura negocio, Transformación digital, Desarrollo Internet, haciendo uso de metodologías agile.</p>
-                          <img src="./img/componentes.webp" alt="imagen componentes" loading='lazy'/>
+                          <img className="shadow-xl" src="./img/componentes.webp" alt="imagen componentes" loading='lazy'/>
                         </>:
-
                       ''} 
 
                       {(item.id==="4")?                                             
                         <>
-
                           <p className="mb-3 text-center"><strong>Participación en el desarrollo y maquetación de la App Live Chat para clientes:</strong> maquetación junto al equipo de desarrollo y distintos departamentos, de las jsp con COMPONENTES JSF, CSS y JS de las distintas aplicaciones de la Intranet y páginas de colaboradores externos de empresa de seguros y sus marcas; <strong>apertura de partes, gestión de siniestros, lesionados, contabilidad, comunicación, marketing, partners,...</strong>:</p>
-                          <img src="./img/web-intranet.webp" alt="imagen intranet" loading='lazy'/>
+                          <img className="shadow-xl" src="./img/web-intranet.webp" alt="imagen intranet" loading='lazy'/>
 
                           <p className="font-bold mb-3 text-center">Participación en el desarrollo y maquetación de la App Live Chat para clientes.</p>
-                          <img src="./img/web-chat.webp" alt="imagen livechat" loading='lazy'/>
+                          <img className="shadow-xl" src="./img/web-chat.webp" alt="imagen livechat" loading='lazy'/>
                         </>:
-
                       ''} 
 
                       {(item.id==="5")?                                             
@@ -152,11 +147,9 @@ function App() {
                           <li className="list-disc">Estudio e Integración con PHP de la pasarela de pagos con la web parroquial</li>
                           <li className="list-disc">Testeo y puesta en producción</li>
                         </ul>
-                        <img src="./img/integracion-tpv.webp" alt="" loading='lazy'/>
+                        <img className="shadow-xl" src="./img/integracion-tpv.webp" alt="" loading='lazy'/>
                         </>:
-
                       ''} 
-
 
                       {(item.id==="6")?                                             
                         <>
@@ -164,44 +157,31 @@ function App() {
                         <div className="flex mb-3.75">                       
                          <div>
                            <p className="font-bold mb-3">Elaboración íntegra de web para gabinete de psicología:</p>
-                           <img src="./img/web-edac.webp" alt="web gabinete psicología" loading='lazy'/>
+                           <img className="shadow-xl" src="./img/web-edac.webp" alt="web gabinete psicología" loading='lazy'/>
                          </div>
                          <div>
                            <p className="mb-3 "><strong>Elaboración íntegra de web parroquial:</strong> Responsive HTML, mobile first, CSS, PHP, JS, SEO. Buscador propio usando fuse, galerías de imágenes con php, páginas internas, documentación y mantenimientos, calendario litúrgico perpetuo, lecturas diarias perpetuas,...</p>
-                           <img src="./img/web-parroquial.webp" alt="web gabinete psicología" loading='lazy'/>
+                           <img className="shadow-xl" src="./img/web-parroquial.webp" alt="web gabinete psicología" loading='lazy'/>
                          </div>
                         </div>
-
                         </>:
-
                       ''} 
 
                       {(item.id==="7")?                                             
                         <>
-                         <img src="./img/elaboracion-manuales.webp" alt="imagen tutoriales" loading='lazy'/>
+                         <img className="shadow-xl" src="./img/elaboracion-manuales.webp" alt="imagen tutoriales" loading='lazy'/>
                         </>:
-
                       ''} 
-
                       
                       {(item.id==="8")?                                             
                         <>  
-
                          <p className="font-bold mb-3">Creatividad para promoción de adestramiento canino en redes:</p>
-                         <img className="w-[500px]" src="./img/adiestramiento-canino-madrid.webp" alt="imagen adiestramiento canino" loading='lazy'/>
+                         <img className="w-[500px] shadow-xl" src="./img/adiestramiento-canino-madrid.webp" alt="imagen adiestramiento canino" loading='lazy'/>
 
                         <p className="font-bold mb-3">Interfaz panel temporal 'Back to the future' maquetado con HTML+CSS+JS:</p>
                         <iframe src="https://andune55.github.io/bttf/" className="w-full xl:h-250 md: h-200" loading='lazy'></iframe>
-
-
                         </>:
-
                       ''} 
-
-                      
-                      
-                      
-
                      
                                             
                     </div>
@@ -221,7 +201,7 @@ function App() {
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
         </svg>
       </h3>  
-      <div className="flex justify-start">
+      <div className={`flex max-md:block max-md:my-0 max-md:mx-auto justify-start max-md:max-w-[70%] grid-cols-${cvitem.length} gap-4`}>
         {cvitem.map(item => (
           <Card
             key = {item.id}
@@ -230,16 +210,8 @@ function App() {
         ))}
         </div>
       </div>
+   
 
-                
-        
-    
-      
-
-
-    
-
-    Ejemplo con prism de código (un par de módulos clicables?)
 
       
     </>
