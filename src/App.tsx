@@ -3,7 +3,7 @@ import { trabajos } from './data/trabajos'
 
 import Card from './components/Card'
 import InfoPersonal from './components/InfoPersonal'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger} from './components/accordion'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger} from './components/Accordion'
 
 /*import { Fotografias } from './components/Fotografias'*/
 

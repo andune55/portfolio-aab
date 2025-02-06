@@ -4,7 +4,7 @@ import {
     AccordionProvider,  
     useAccordionContext, 
     useAccordionItemContext 
-} from './accordion-context';
+} from './Accordion-context';
 
 type WithChildren = {
     children: React.ReactNode
