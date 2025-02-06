@@ -16,5 +16,6 @@ export default defineConfig({
     forms()
     // tailwindcssanimate(),
     // 
-  ]
+  ],
+  base: '/dist/'
 })
