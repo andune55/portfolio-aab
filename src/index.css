@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "./assets/prism.css";
+
+
+
+
+
+
+.radius-shape-aab{
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    max-width: calc(100% + 35px);
+}
+.radius-shape2-aab{
+    border-radius: 43% 68% 68% 54% / 83% 41% 73% 50%;
+    max-width: calc(100% + 55px);
+}
