@@ -1,8 +1,4 @@
 {
-  "homepage" : "https://andune55.github.io/portfolio-aab",
-  "predeploy": "npm run build",
- "deploy": "gh-pages -d dist",
- 
   "name": "portafolio-aab",
   "private": true,
   "version": "0.0.0",
