@@ -1,8 +1,9 @@
 @import "tailwindcss";
-@import "./assets/prism.css";
 
 
-
+body{
+	min-width: 300px;
+}
 
 
 
@@ -25,4 +26,217 @@
         border-radius: 5px;
         width: 95%;
     }
+}
+
+/* ESTILOS MODAL */
+
+/* ESTILOS MODAL SCROLL*/
+
+.modal-object::-webkit-scrollbar {
+	display: flex;
+}
+ .modal-object::-webkit-scrollbar{
+    width: 9px;
+}
+.modal-object::-webkit-scrollbar-button{
+	width:8px;
+    height: 5px;
+}
+.modal-object::-webkit-scrollbar-track{
+	background: transparent;
+	border-radius: 10px;
+    margin-top: 4px;
+}
+.modal-object::-webkit-scrollbar-thumb{
+	background: #6161615c;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,225,.5),
+                        inset 1px 0 0 rgba(255,255,255,.4),
+                        inset 0 1px 2px rgba(255,255,255,.3);
+    border: thin solid #6161615c;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}       
+.modal-object::-webkit-scrollbar-thumb:window-inactive {
+    background: #6161615c; 
+}
+
+/* FIN ESTILOS MODAL SCROLL*/
+
+body.noScroll{
+	overflow: hidden
+}
+
+
+/** Overlay */
+
+.modal-overlay {
+	display: none;
+	/*pointer-events: none;*/
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #1A1A1A40;
+	opacity: 0;
+	-webkit-transition: opacity 600ms;
+	-o-transition: opacity 600ms;
+	transition: opacity 600ms;
+	z-index: 999;
+	
+}
+
+.open.modal-overlay {	
+	opacity: 0.7;
+	display: block;
+	pointer-events: auto;
+	-webkit-animation-name: anim-open-opacity;
+	animation-name: anim-open-opacity;
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.open.modal-object {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.open.modal-object, .active.modal-object {
+    pointer-events: auto;
+    opacity: 1;
+    display: block;
+}
+
+.modal-content .logotipo{
+	display: flex;
+	/*background-image: ;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 145.83px;
+    height: 43.33px;
+    background-size: contain;
+}
+
+.modal-object {
+    max-width: 80% !important;
+	z-index: 1000;
+	position: fixed;
+	left: 0;
+	top: 45%;
+	-webkit-transform: translate(-0%, -50%);
+	-ms-transform: translate(-0%, -50%);
+	transform: translate(-0%, -50%);
+	width: 100%;
+	max-width: 540px;
+	-webkit-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	right: 0;
+	padding: 16px 32px 32px;
+	background: #fff;
+	border-radius: 16px;
+	margin: 0 auto;
+	pointer-events: none;
+	opacity: 0;
+	overflow: auto;
+	height: auto;
+	max-height: 85%;
+	display: none;
+}
+@media screen and (max-width: 599px){
+	.modal-object {
+		max-width: 90% !important;
+	    -webkit-transform: translate(-0%, 0%);
+	    -ms-transform: translate(-0%, 0%);
+	    transform: translate(-0%, 0%);
+	    /*border-radius: 10px 10px 0 0;*/
+	    padding: 16px 16px 32px ;
+	    pointer-events: auto;
+	    top: 8%!important;
+	    /*bottom: 0!important;*/
+	    left: 0;
+	    right: 0;
+	    max-width: 100%;
+	}
+}
+
+.modal-object > div[class^="ico_"]{
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 6;
+}
+.modal-link-close {
+	position: sticky;
+	float:right;
+	right: 0px;
+	top: 0px;
+	font-size: 20px;
+	cursor: pointer;
+	width: 24px;
+	z-index: 9;
+	height: 36px;
+	background-repeat: no-repeat;
+	background-position: 0;
+}
+@media screen and (max-width: 599px){
+	.modal-link-close {
+	    right: 0px;
+    }
+}
+
+/* FIN ESTILOS MODALES */	
+
+
+:root {
+	--gallery-gap: 1.5em;
+	--gallery-items-per-row: 3;
+  }
+
+  .img-gallery {
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+  }
+  .img-gallery__item {
+	flex: 0 0
+	  calc(
+		100% / var(--gallery-items-per-row) - var(--gallery-gap) *
+		  (var(--gallery-items-per-row) - 1) / var(--gallery-items-per-row)
+	  )!important;
+  }
+
+  .img-gallery__item  img {
+    
+    object-fit: cover;
+}
+	figure { 
+		aspect-ratio: 3 / 2;
+		max-height: 250px;
+		overflow-y: auto;
+		overflow-x: hidden;
+		
+	}
+
+
+  @media only screen and (min-width: 1024px) {
+	.img-gallery {
+	  --gallery-items-per-row: 4;
+	}
+  }
+
+  @media screen and (max-width: 599px){
+	.img-gallery {
+		--gallery-items-per-row: 1;
+	}
+	figure { 
+		aspect-ratio: 3 / 2;
+		max-height: -webkit-fill-available;
+		overflow-y: visible;
+	}
 }
