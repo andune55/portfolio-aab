@@ -55,7 +55,7 @@ function App() {
         <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(2022)</span> - <span>Curso de Angular 13</span></p>
         <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(2023)</span> - <span>HTML Email Mastery - Build Responsive HTML Email Templates</span></p>
         <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(03/2024)</span> - <span>Curso de Angular 17</span></p>
-        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(01/2024-actualmente)</span> - <span>Curso de 57h de React Creando-mas-de-10-aplicaciones</span></p>
+        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(11/2024-actualmente)</span> - <span>Curso de 57h de React Creando-mas-de-10-aplicaciones</span></p>
        
       </div>
 
@@ -106,7 +106,7 @@ function App() {
                         <ul className="mx-5 my-4">                            
                             <li className="list-disc">Creación íntegra de los distintos módulos a emplear y testeo en más de 100 clientes de correo para asegurar la correcta renderización tanto en light como en dark mode. Usando las recomendaciones actuales de accesibilidad y anti-spam, procurando estar al día en cuanto a novedades, técnicas y recomendaciones.</li>
                             <li className="list-disc">Construcción de plantillas velocity .vm para envíos masivos a clientes mediante centro de notificaciones propio.</li>
-                            <li className="list-disc">Construcción de plantillas .html para para envíos masivos a clientes madiante gestor de campañas Adobe Campaign.</li>
+                            <li className="list-disc">Construcción de plantillas .html para para envíos masivos a clientes mediante gestor de campañas Adobe Campaign.</li>
                         </ul>                 
 
                         <img className="shadow-xl" src="./img/plantilla-email.webp" alt="imagen plantilla email" loading='lazy' />

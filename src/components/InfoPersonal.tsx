@@ -24,7 +24,7 @@ export default function InfoPersonal(){
                         
                     </li>
                     <li className="list-disc">Trabajo en equipo en colaboración con varios departamentos de mi empresa actual, <strong>control de versiones (Serena Dimensions, Git)</strong> y <strong>metodologías agile</strong>.</li>
-                    <li className="list-disc">Buen entendimiento del Inglés, procuro estar al día en nuevas tecnologías dependiendo de lo que mis funciones requieran.</li>
+                    <li className="list-disc"><strong>Buen entendimiento del Inglés</strong>, procuro estar al día en nuevas tecnologías dependiendo de lo que mis funciones requieran.</li>
                     <li>Carnét de conducir coche y moto (A).</li>
                 </ul>
                              
