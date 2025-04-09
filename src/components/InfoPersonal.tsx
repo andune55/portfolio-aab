@@ -16,7 +16,7 @@ export default function InfoPersonal(){
                         <span>Maquetación de Interfaces de Usuario con sistema de diseño para componentes reutilizables, landings, html de distintas webs de marca, páginas de acceso a clientes con sistema de diseño, documentación intranet, jsps para microsites dedicados a operadores de la compañía y colaboradores externos...</span>  
                     </li>
                     <li className="list-disc">
-                        <span><strong>Elaboración íntegra de plantillas modulares para envío por email de campañas, testeando y depurando en más de 100 clientes de correo</strong> <span className="pt-0.1 px-1.5 pb-0.5 inline bg-red-100 rounded-md">(ver sección de trabajos realizados)</span></span>
+                        <span><strong>Elaboración íntegra de plantillas accesibles y modulares para envío por email de campañas, testeando y depurando en más de 100 clientes de correo</strong> <span className="pt-0.1 px-1.5 pb-0.5 inline bg-red-100 rounded-md">(ver sección de trabajos realizados)</span></span>. Testeo de accesibilidad con las últimas recomendaciones.
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="mx-1.25 size-7 inline-block self-center">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                         </svg>
