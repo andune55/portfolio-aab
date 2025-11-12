@@ -48,15 +48,15 @@ function App() {
           <span className="text-blue-400">(1993-1998)</span> - <span>Licenciatura de Bioquimica</span>
         </p>
 
-        <p className="ml-2.5 mb-2"><strong>Academia CICE Madrid</strong> <span className="text-blue-400">(2001-2002)</span> - <span>Máster Diseño Web y Desarrollo de aplicaciones para internet</span></p>
-        <p className="ml-2.5 mb-2"><strong>Formación de empresa</strong> <span className="text-blue-400">(2010)</span> - <span>Cursos de richfaces y JQuery</span></p>
-        <p className="ml-2.5 mb-2"><strong>Imagina Formación</strong> <span className="text-blue-400">(2012)</span> - <span>Curso de Desarrollo Web en HTML5 y CSS3</span></p>
-        <p className="ml-2.5 mb-2"><strong>Imagina Formación</strong> <span className="text-blue-400">(2015)</span> - <span>Curso de Angular JS </span></p>
-        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(2022)</span> - <span>Curso de Angular 13</span></p>
-        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(2023)</span> - <span>HTML Email Mastery - Build Responsive HTML Email Templates</span></p>
+        <p className="ml-2.5 mb-2"><strong>Academia CICE Madrid</strong> <span className="text-blue-400">(2001-2002)</span> - <span>Máster Diseño Web y Desarrollo de aplicaciones para internet</span></p>            
+        
+        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(2025)</span> - <span>Curso de 57h de React Creando-mas-de-10-aplicaciones</span></p>
         <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(03/2024)</span> - <span>Curso de Angular 17</span></p>
-        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(11/2024-actualmente)</span> - <span>Curso de 57h de React Creando-mas-de-10-aplicaciones</span></p>
-       
+        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(2023)</span> - <span>HTML Email Mastery - Build Responsive HTML Email Templates</span></p>
+        <p className="ml-2.5 mb-2"><strong>Udemy</strong> <span className="text-blue-400">(2022)</span> - <span>Curso de Angular 13</span></p>
+        <p className="ml-2.5 mb-2"><strong>Imagina Formación</strong> <span className="text-blue-400">(2015)</span> - <span>Curso de Angular JS </span></p>
+        <p className="ml-2.5 mb-2"><strong>Imagina Formación</strong> <span className="text-blue-400">(2012)</span> - <span>Curso de Desarrollo Web en HTML5 y CSS3</span></p>
+        <p className="ml-2.5 mb-2"><strong>Formación de empresa</strong> <span className="text-blue-400">(2010)</span> - <span>Cursos de richfaces y JQuery</span></p>
       </div>
 
 {//Experiencia Laboral
