@@ -4,7 +4,7 @@ import { trabajos } from './data/trabajos'
 import InfoPersonal from './components/InfoPersonal'
 import Card from './components/Card'
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger} from './components/Accordion'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './components/accordion.tsx'
 import ModalPanel from './components/ModalPanel'
 import { useModalPanel } from './hooks/useModalPanel' 
 
